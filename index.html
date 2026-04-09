@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Safari specific meta tags to disable dynamic zooming and lock scale -->
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>For My Bestie</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="container" id="main-container">
+        <div class="card">
+            <div class="image-container">
+                <img src="./cute_sad_puppy.png" alt="Sad puppy eyes">
+            </div>
+            <h1>Hey bestie...</h1>
+            <p>I know I messed up, and I'm really sorry.</p>
+            <h2>Will you forgive me?</h2>
+
+            <div class="button-group">
+                <button id="yes-btn" class="btn yes-btn">Yes, I forgive you! 😊</button>
+                <button id="no-btn" class="btn no-btn">No way. 😠</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="success-container hidden" id="success-container">
+        <div class="card">
+            <div class="image-container">
+                <img src="./photo.jpeg" alt="Besties celebrating">
+            </div>
+            <h1>YAYYY! 🎉</h1>
+            <p>You're the absolute best! I promise to make it up to you! Thanks! Now Smile</p>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
